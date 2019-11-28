@@ -13,7 +13,7 @@ class MatchItem(scrapy.Item):
 
 
 class NCrawler(scrapy.Spider):
-    name = 'n'
+    name = 'nCrawler'
     allowed_domains = ['nesine.com']
     start_urls = ['https://www.nesine.com/sportoto/mac-sonuclari']
 
